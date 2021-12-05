@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'lib-dialog-model',
+  selector: 'dialog-model',
   templateUrl: './dialog-model.component.html',
   styleUrls: ['./dialog-model.component.css']
 })

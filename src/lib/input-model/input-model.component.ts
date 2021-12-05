@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'lib-input-model',
+  selector: 'input-model',
   templateUrl: './input-model.component.html',
   styleUrls: ['./input-model.component.css']
 })

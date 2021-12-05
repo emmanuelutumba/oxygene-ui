@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'lib-table-model',
+  selector: 'table-model',
   templateUrl: './table-model.component.html',
   styleUrls: ['./table-model.component.css']
 })
