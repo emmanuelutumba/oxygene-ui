@@ -1,0 +1,76 @@
+.table-model thead {
+    background: linear-gradient(to top, #d7d7d7 -100%, #f3f3f3);
+    box-shadow: 0px 0px 2px 0px #b7b7b7;
+    border: 1px solid #e0e0e0;
+}
+
+.table-model thead tr th {
+    padding: 10px 0px;
+}
+
+.table-model thead tr th .title {
+    border-right: 1px solid #cccccc;
+    border-left: 1px solid #ffffff;
+    font-size: 14px;
+    text-align: center;
+    color: #414040;
+}
+
+.table-model thead tr th:first-child .title {
+    border-left: none;
+}
+
+.table-model thead tr th:last-child .title {
+    border-right: none;
+}
+
+.table-model tbody {
+    border-top: none;
+}
+
+.table-model tbody tr {
+    cursor: pointer;
+}
+
+.table-model tbody tr td .check-item {
+    height: 18px;
+    width: 18px;
+    border: 1px solid #c0c0c0;
+    border-radius: 3px;
+    margin: 2px;
+}
+
+.table-model-active {
+    background: linear-gradient(to top, #01355a, #036ab4);
+}
+
+.table-model tbody tr td .rm-item {
+}
+
+.table-model .status-item {
+    height: 12px;
+    width: 12px;
+    border-radius: 12px;
+}
+
+.table-model .fill-green {
+    background-color: green;
+}
+
+.table-model .fill-orange {
+    background-color: orange;
+}
+
+.table-model .fill-red {
+    background-color: red;
+}
+.table-data-loading .loading-icon {
+    width: 30px;
+    margin: auto;
+}
+
+.table-data-loading .loading-icon i {
+    text-align: center;
+    font-size: 30px;
+    color: #01355a;
+}

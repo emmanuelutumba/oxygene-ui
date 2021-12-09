@@ -1,0 +1,11 @@
+<div [id]="id" #checked [ngStyle]="isChecked?{'display':'block'}:{'display':'none'}" class="check-box d-flex" >
+    <div class="check-item active"  [ngStyle]="style"  (click)="onClick()">
+        <i class="fa fa-check" aria-hidden="true"></i>
+    </div>
+    <h6 class="label">{{label}}</h6>
+</div>
+<div [id]="id" #nochecked [ngStyle]="!isChecked?{'display':'block'}:{'display':'none'}" class="check-box d-flex">
+    <div class="check-item" [ngStyle]="style" (click)="onClick()">
+    </div>
+    <h6 class="label">{{label}}</h6>
+</div>
